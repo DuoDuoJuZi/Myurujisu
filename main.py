@@ -8,6 +8,9 @@ from funasr import AutoModel
 import speech_recognition as sr
 from pypinyin import lazy_pinyin
 import soundfile as sf
+from dotenv import load_dotenv
+
+load_dotenv()
 
 MQTT_BROKER = os.getenv("MQTT_BROKER")
 MQTT_TOPIC = os.getenv("MQTT_TOPIC")
