@@ -13,7 +13,7 @@
 
 - Python 3.8+
 - 麦克风设备
-- 网络连接（用于访问 DeepSeek API 和 MQTT Broker）
+- 网络连接（用于访问 DeepSeek API）
 
 ## 安装依赖
 
