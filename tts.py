@@ -2,11 +2,14 @@ import requests
 import pygame
 import io
 import os
+from dotenv import load_dotenv
 
 """
 @Author: DuoDuoJuZi
 @Date: 2026-02-21
 """
+
+load_dotenv()
 
 TTS_API_URL = os.getenv("TTS_API_URL")
 REF_AUDIO_PATH = os.getenv("TTS_REF_AUDIO_PATH")
