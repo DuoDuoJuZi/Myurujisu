@@ -1,3 +1,4 @@
 run.bat
 voice.wav
 .env
+__pycache__/
